@@ -1,7 +1,78 @@
 /* ----------スマホ用---------- */
 @media only screen and (max-width:767px){
-  header{
+  /* ----------header---------- */
+  .header-wrapper{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .header-title{
+    text-align: center;
+  }
+  .header-nav{
+    justify-content: space-between;
+  }
+  .header-nav-item{
+    margin: 0;
+    width: 30%;
+    text-align: center;
+  }
+  /* ----------/header---------- */
+
+  /* ----------section---------- */
+  .section{
+    padding: 80px 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .section p{
+    font-size: 14px;
+  }
+  /* ----------/section---------- */
+
+  /* ----------top---------- */
+  .top{
+    padding: 120px 0;
+
+  }
+  .top-title{
+    font-size: 32px;
+  }
+  .top-sub-title{
+    font-size: 14px;
+  }
+  /* ----------/top---------- */
+
+  /* ----------about---------- */
+  .about-item{
+    flex-direction: column;
+  }
+  .about-item-left{
+    margin-bottom: 20px;
+  }
+  .about-item-left,.about-item-right{
     width: 100%;
   }
+  /* ----------/about---------- */
+
+  /* ----------course---------- */
+  .course-item{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  /* ----------/course---------- */
+
+  /* ----------contact---------- */
+  input[type="email"]{
+    width: 100%;
+  }
+  /* ----------/contact---------- */
+
+  /* ----------footer---------- */
+  .copyright{
+    float: none;
+    text-align: center;
+    font-size: 10px;
+  }
+  /* ----------/footer---------- */
 }
 /* ----------/スマホ用---------- */
